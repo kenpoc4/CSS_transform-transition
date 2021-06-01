@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transiciones CSS</title>
+    <style>
+        a:link {
+            /* Link que no ha sido visitado */
+            color: rebeccapurple;
+        }
+        a:visited {
+            /* Link que ya fue vivitado */
+            color: red;
+        }
+        a:hover {
+            /* Al pasar el mouse sobre el objeto */
+            background-color: navajowhite;
+        }
+        p:not(.star) {
+            /* Toda <p> que no tenga la clase "star" */
+            color: olivedrab;
+        }
+        .star-contenedor
+        li:nth-child(1) {
+            /* El elemento hijo de .star-contenedor numero (1) */
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">Anakin</a>
+    <br>
+    <a href="#">Skywalker</a>
+    <br>
+    <p>Hello</p>
+    <p class="star">World</p>
+    <ul class="star-contenedor">
+        <li>Star wars</li>
+        <li>Star wars</li>
+        <li>Star wars</li>
+        <li>Star wars</li>
+    </ul>
+</body>
+</html>
