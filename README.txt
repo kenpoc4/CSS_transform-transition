@@ -7,3 +7,6 @@ Properties in CSS
 Links:
 Timing-> https://cubic-bezier.com/
 Gradient -> https://cssgradient.io/gradient-backgrounds/
+
+Book
+https://valhead.com/
